@@ -1,6 +1,6 @@
 ## Utilisation de Kaggle dans le projet
 
-Nous avions initialement envisagé de constituer notre propre jeu de données en extrayant, via un script de web scraping, les informations qui nous intéressaient sur le site Fragrantica. Malheureusement, nous n’avons pas pu accéder aux commentaires des utilisateurs, une composante essentielle pour notre projet d’analyse. Après plusieurs tentatives infructueuses pour récupérer ces données, nous avons finalement décidé d’utiliser un jeu de données déjà disponible, que nous avons trouvé sur Kaggle. Voici le lien vers ce dataset : [Fragrantica Data sur Kaggle](#).
+Nous avions initialement envisagé de constituer notre propre jeu de données en extrayant, via un script de web scraping, les informations qui nous intéressaient sur le site Fragrantica. Malheureusement, nous n’avons pas pu accéder aux commentaires des utilisateurs, une composante essentielle pour notre projet d’analyse. Après plusieurs tentatives infructueuses pour récupérer ces données, nous avons finalement décidé d’utiliser un jeu de données déjà disponible, que nous avons trouvé sur Kaggle. Voici le lien vers ce dataset : [Fragrantica Data sur Kaggle](https://www.kaggle.com/datasets/joehusseinmama/fragrantica-data).
 
 ## Importance de Kaggle pour le NLP
 
