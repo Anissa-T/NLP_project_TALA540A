@@ -11,9 +11,9 @@ Le projet final de ce [cours](https://github.com/RimeAB/TALA540A-24-25/tree/main
 
 ## Sujet du projet 
 **🌸 Classification de revues de parfums selon le genre avec SVM 🌸**
-Notre corpus : données de fragrantica.com dont les reviews de parfums et le genre auquel est destiné le parfum (crée par joehusseinmama sur Kaggle)
-Notre tâche :  Classification de revues de parfums selon le genre
-L'algo de classification utilisé : SVM à l'aide de la librairie sklearn
+- Notre corpus : données de fragrantica.com dont les reviews de parfums et le genre auquel est destiné le parfum (crée par joehusseinmama sur Kaggle)
+- Notre tâche :  Classification de revues de parfums selon le genre
+- L'algo de classification utilisé : SVM à l'aide de la librairie sklearn
 
 ### Usage
 - clone git repo
