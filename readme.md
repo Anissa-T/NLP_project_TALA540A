@@ -2,7 +2,7 @@
 
 ## Objectif du projet
 
-Le projet final de ce cours consiste à travailler en groupe pour appliquer les compétences acquises à une tâche concrète en TAL. Vous devrez choisir et analyser un corpus, choisir une tâche et un outil, puis proposer une solution qui sera évaluée selon plusieurs critères.
+Le projet final de ce [cours](https://github.com/RimeAB/TALA540A-24-25/tree/main) consiste à travailler en groupe pour appliquer les compétences acquises à une tâche concrète en TAL. Vous devrez choisir et analyser un corpus, choisir une tâche et un outil, puis proposer une solution qui sera évaluée selon plusieurs critères.
 
 ## Membre du groupe 
 - Jeevya AROUN
