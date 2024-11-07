@@ -93,7 +93,6 @@ Kaggle propose de nombreux jeux de données annotés et de ressources utiles, r�
 ### Fichiers Principaux
 - `classifier.ipynb` : Contient le code pour l'entraînement et l'évaluation du modèle SVM.
 - `readme.md` : Documentation du projet.
-- `Project.ipynb` : Notebook additionnel pour les explorations et les analyses supplémentaires.
 
 ### Dossier de Données
 - **Données Brutes** : Le fichier `perfumes_table.csv` doit être placé dans `../data/raw/`.
