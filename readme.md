@@ -9,21 +9,37 @@ Le projet final de ce [cours](https://github.com/RimeAB/TALA540A-24-25/tree/main
 - Nicolas NGAUV  
 - Anissa THEZENAS 
 
-## sujet du projet 
-**🌸 Classification de Parfums selon les Genres via Scraping et NLP 🌸**
+## Sujet du projet 
+**🌸 Classification de revues de parfums selon le genre avec SVM 🌸**
+Notre corpus : données de fragrantica.com dont les reviews de parfums et le genre auquel est destiné le parfum (crée par joehusseinmama sur Kaggle)
+Notre tâche :  Classification de revues de parfums selon le genre
+L'algo de classification utilisé : SVM à l'aide de la librairie sklearn
 
-*Détails du Projet :*
+### Usage
+- clone git repo
+- download raw corpus from joehusseinmama/fragrantica-data on Kaggle 
+	- https://www.kaggle.com/datasets/joehusseinmama/fragrantica-data
+	- place the file perfumes_table.csv in ../data/raw/
+- run classifier.ipynb
 
-1. Scraping des Données sur Fragrantica :
-- Extraction des notes olfactives de chaque parfum (ex. boisé, fruité, épicé, floral, etc.) pour identifier les caractéristiques principales de chaque fragrance.
-- Extraction des commentaires des utilisateurs, qui contiennent des perceptions, des avis personnels et des descriptions riches en émotion, fournissant des indices supplémentaires sur la nature du parfum.
+### Some info on the raw data
+- csv file (724,3 Mo) found on Kaggle (joehusseinmama/fragrantica-data)
+- 84144 fragrances in total
 
-2. Traitement et Préparation des Données :
-- Nettoyage et formatage des données pour s’assurer de leur qualité et pertinence.
-- Préparation des données pour le modèle NLP, en se concentrant sur les commentaires et les descriptions textuelles pour obtenir une base d’analyse qualitative.
+- fields : 
+	- rating (1 to 5)
+	- notes (list)
+	- designer
+	- reviews (list), some lists are empty
+	- description
+	- url
+	- title (title + gender) ex: "Vanilla Scent Fiorucci for women and men" or "Laura Nina's Nature for women"
 
-3. Attribution d’un Genre à l’aide d’un Modèle NLP :
-- Utilisation de modèles de NLP disponibles sur Hugging Face, potentiellement fine-tunés pour la classification de texte, afin de déterminer le genre le plus probable (masculin, féminin, mixte) de chaque parfum.
-
-4. Résultats et Visualisation :
-- Visualisation des tendances par genre et famille olfactive pour dégager des perspectives globales sur les préférences de genre dans les parfums.
+### Clean data
+- json format
+- for each review we have :
+	- id
+	- text content of the review
+	- gender (split on the title)
+- words like "for men", "for women", "unisexe" etc. will be masked from reviews to avoid bias
+- all classes will have the same nb of reviews
