@@ -6,10 +6,12 @@ Ce projet s'inscrit dans le cadre du cours de **Traitement Automatique des Langu
 
 ➡️ Lien vers le [cours](https://github.com/RimeAB/TALA540A-24-25/tree/main).
 
-## 👥 Membres du Groupe
+## 👥 Membres du Groupe et Organisation du Travail
 - Jeevya AROUN
 - Nicolas NGAUV  
 - Anissa THEZENAS 
+
+Nous avons travaillé ensemble pour chaque étape du travail, donc du début à la fin, et parfois à 3 sur un poste selon les circonstances, ou chacun sur son ordinateur mais ensuite en mettant en commun et en discutant avant que l'un d'entre nous ne pousse les mises à jours (d'où les possibles disparités dans la distribution des commits dans l'historique, qui ne reflète en rien l'organisation équitable et harmonieuse de notre équipe durant ce projet !)
 
 ---
 
@@ -53,7 +55,7 @@ La tâche consiste à classifier les avis de parfums en fonction du genre auquel
   - `reviews` : Liste des avis sur le parfum (certaines listes peuvent être vides).
   - `description` : Description textuelle du parfum.
   - `url` : Lien vers la page du parfum sur Fragrantica.
-  - `title` : Nom complet du parfum incluant le genre (ex. : "Vanilla Scent Fiorucci for women and men").
+  - `title` : Titre de la page web du parfum incluant le nom du parfum, le nom du créateur, et le genre du public visé (ex. : "Vanilla Scent Fiorucci for women and men").
 
 ### Données Nettoyées
 Après prétraitement, les données sont stockées en format JSON, avec les informations suivantes pour chaque revue :
