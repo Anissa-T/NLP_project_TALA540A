@@ -1,4 +1,4 @@
-# 🌸 Projet NLP - Classification de Revues de Parfums 🌸
+# 🌸 Projet NLP - Classification de Commentaires (reviews) de Parfums 🌸
 
 ## 📝 Objectif du Projet
 
